@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Макет-2(css).css" rel="stylesheet">
+    <link href="HTMl/iconsfont.css" rel="stylesheet"><!--#-->
+
+    <title>JavaScript полигон</title>
+    <script src="https://kit.fontawesome.com/63ee183a8b.js" crossorigin="anonymous"></script>
+</head>
+<body class="">
+
+  
+
+<!--Смена темы(темная-светлая)-->
+                <button class="button-toggle" id="button">
+                    <img class="sun-moon" id="image" src="images/sun-solid.svg">
+                </button> 
+<!------------------------------>
+
+
+
+<!--Звездный рейтинг-->
+            <h3 class="our-site">Оцените наш сайт, чтобы сделать его лучше!</h3>
+            <div class="rating" data-rating-box="0">
+                <i class="fa-solid fa-star rating-item" data-item-value="5"></i>
+                <i class="fa-solid fa-star rating-item" data-item-value="4"></i>
+                <i class="fa-solid fa-star rating-item" data-item-value="3"></i>
+                <i class="fa-solid fa-star rating-item" data-item-value="2"></i>
+                <i class="fa-solid fa-star rating-item" data-item-value="1"></i>
+            </div>
+<!-------------------->
+
+<!--Всплывающее окно-->
+            <div class="button">
+                <a href="#" id="open_pop_up">Оставить заявку</a>
+            </div>
+                <div class="pop_up" id="pop_up">
+                    <div class="pop_up_container">
+                        <div class="pop_up_body" id="pop_up_body">
+                            <p>Оставить заказ</p>
+                            <form action="">
+                                <input type="text" placeholder="Имя">
+                                <input type="text" placeholder="Телефон">
+                                <button>Подтвердить</button>
+                            </form>
+                            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                        </div>
+                    </div>
+                </div>
+<!--------------------->
+
+
+<script src="Макет-2(JS-пробный).js"></script>
+</body>
+</html>
